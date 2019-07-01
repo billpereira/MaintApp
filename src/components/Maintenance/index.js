@@ -1,8 +1,7 @@
 import React from 'react';
 import Container from '../Container';
-import Typography from '@material-ui/core/Typography';
-import VolumeMapping from '../VolumeMapping';
-import MaintenanceLevels from '../MaintenanceLevels';
+import VolumeMapping from './VolumeMapping';
+import MaintenanceLevels from './MaintenanceLevels';
 
 const MaintenancePages = [
 	{

@@ -28,8 +28,7 @@ export default ({ openState, setOpen, classes }) => {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant="h6" className={classes.title}>
-						MaintApp
-						{/* AT&T MVS Hub */}
+						AT&T MVS Hub
 					</Typography>
 					<ThemeSwitch className={classes.rightAlign}/>
 				</Toolbar>

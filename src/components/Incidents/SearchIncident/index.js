@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function index() {
+export default () => {
   return (
     <div>
-      Hello from Volumes
+      Hello from Search
     </div>
   )
 }

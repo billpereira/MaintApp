@@ -63,13 +63,14 @@ const useStyles = makeStyles(theme => ({
 			duration: theme.transitions.duration.enteringScreen
 		}),
 		marginLeft: 0,
+		width: `calc(100vw - ${drawerWidth}px)`,
 	}
 }));
 
 export default ({ children }) => {
 	const classes = useStyles();
 
-	const [open, setOpen] = React.useState(false);
+	const [open, setOpen] = React.useState(true);
 
 	return (
 		<div className={classes.root}>
